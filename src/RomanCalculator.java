@@ -1,11 +1,11 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class RomalCalculator implements Calculator {
+public class RomanCalculator implements Calculator {
 
     private Map<Integer, String> numbers;
 
-    public RomalCalculator() {
+    public RomanCalculator() {
         this.numbers = new HashMap<Integer, String>();
         this.numbers.put(1, "I");
         this.numbers.put(2, "II");

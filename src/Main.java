@@ -11,7 +11,7 @@ public class Main {
         if(Pattern.compile( "[0-9]" ).matcher(line).find()){
             calculator = new ArabicCalculator();
         }else {
-            calculator = new RomalCalculator();
+            calculator = new RomanCalculator();
         }
     }
 
